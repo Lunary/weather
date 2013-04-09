@@ -18,6 +18,6 @@ show_weather(API, STATE, CITY, ARRAY_MONTH, DAYS, TYPE_DEGREE);
 - STATE: for example "IT", "FR", "ES" or similar
 - CITY: for example "Madrid", "Roma"
 - ARRAY_MONTH: array with the names of each month, example
+  $names_month = array("January", "February", "March", "April" ...
 - DAYS: days to show, default is 3
 - TYPE_DEGREE: "f" for Fahrenheit, "c" for Celsius
-  $names_month = array("January", "February", "March", "April" ...
