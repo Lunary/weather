@@ -2,7 +2,7 @@
 
 hackLover's weather script is a smart, simple and customizable script to show wunderground.com weather in your website of your city
 
-<div style="text-align: center;"><img src="http://s16.postimg.org/b8p9k8rn9/demoweather.png" alt="Demo Weather" /></div>
+<img src="http://s12.postimg.org/6vlko16h9/demoweather.png" alt="Demo Weather" />
 ---
 
 version 1.0 - 9 april 2013
