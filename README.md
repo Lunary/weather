@@ -1,23 +1,50 @@
-HL PHP SCRIPT WEATHER 1.0
+#Weather PHP Script 1.0
 
-Show weather (from wunderground.com) of your city with this simple and beautiful PHP script
-9 april 2013 - coded by hackLover
+hackLover's weather script is a smart, simple and customizable script to show wunderground.com weather in your website of your city
+
+<div style="text-align: center;"><img src="http://s16.postimg.org/b8p9k8rn9/demoweather.png" alt="Demo Weather" /></div>
+---
+
+version 1.0 - 9 april 2013
+
+Visit and follow
+- www.hacklover.net
+- @_hacklover
 
 ---
 
-Visit www.hacklover.net, follow @_hacklover if u love me <3
 
----
 
-USAGE:
-show_weather(API, STATE, CITY, ARRAY_MONTH, DAYS, TYPE_DEGREE);
+##Usage
 
----
+Just include the file hl.weather.php, then call the function to show it
 
-- API: get it for free on http://api.wunderground.com/weather/api/
-- STATE: for example "IT", "FR", "ES" or similar
-- CITY: for example "Madrid", "Roma"
-- ARRAY_MONTH: array with the names of each month, example
-  $names_month = array("January", "February", "March", "April" ...
-- DAYS: days to show, default is 3
-- TYPE_DEGREE: "f" for Fahrenheit, "c" for Celsius
+``` objective-php
+include "include/hl.weather.php
+echo show_weather(API, STATE, CITY, ARRAY_MONTH, DAYS, TYPE_DEGREE);
+```
+
+
+###Parameters
+
+######API
+Get it free on http://api.wunderground.com/weather/api/
+
+######STATE
+For example "IT", "FR", "ES" or similar
+
+######CITY
+For example "Roma", "Paris", "Madrid"
+
+
+######ARRAY_MONTH
+Is an array with the names of each month, example
+``` objective-php
+$names_month = array("January", "February", "March", "April" ...
+```
+
+######DAYS
+Days to show, default is 3
+
+######TYPE_DEGREE
+"f" for Fahrenheit, "c" for Celsius
