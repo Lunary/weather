@@ -1,6 +1,6 @@
 HL PHP SCRIPT WEATHER 1.0
 
-Show weather (from wunderground.com) of your city with this simply and beautiful PHP script
+Show weather (from wunderground.com) of your city with this simple and beautiful PHP script
 9 april 2013 - coded by hackLover
 
 ---
@@ -14,7 +14,7 @@ show_weather(API, STATE, CITY, DAYS, TYPE_DEGREE, ARRAY_MONTH);
 
 ---
 
-- API: get it for free on http://wunderground.com
+- API: get it for free on http://api.wunderground.com/weather/api/
 - STATE: for example "IT", "FR", "ES" or similar
 - CITY: for example "Madrid", "Roma"
 - DAYS: days to show, default is 3
