@@ -1,7 +1,15 @@
 <?php
 function show_weather($apikey, $state, $city, $show_n_days, $type_degree, $names_month) {
 	$xml_weather = simplexml_load_file("http://api.wunderground.com/api/$apikey/geolookup/forecast/q/$state/$city.xml");
-	if ($xml_weather) {
+	
+	if (isset($xml_weather->error)) {
+		$error = $xml_weather->error->description;
+		$xml_weather_city = "Problems, a lot of problems";
+	} else {
+		$error = null;
+	}
+	
+	if (!$error) {
 		$xml_weather_city = $xml_weather->location->city;
 		$xml_weather_forecast = $xml_weather->forecast->simpleforecast->forecastdays;
 		
@@ -31,7 +39,7 @@ function show_weather($apikey, $state, $city, $show_n_days, $type_degree, $names
 	$w_html .= "<div id=\"weather\">\n";
 	$w_html .= "<div class=\"title_w\">$xml_weather_city</div>\n";
 	$w_html .= "<div class=\"wrap_w\">\n";
-	if ($xml_weather) {
+	if (!$error) {
 		for ($is = 0; $is < $show_n_days; $is++) {
 			$w_html .= "<div class=\"day\">\n";
 				$w_html .= "<div class=\"image\"><img src=\"".$forecast[$is]["icon_url"]."\" alt=\"".$forecast[$is]["icon"]."\" /></div>\n";
@@ -40,7 +48,8 @@ function show_weather($apikey, $state, $city, $show_n_days, $type_degree, $names
 			$w_html .= "</div>\n";
 		}
 	} else {
-		echo "Non va un caz";
+		// show description error
+		$w_html .= $error;
 	}
 	$w_html .= "<div class=\"clear\"></div>";
 	$w_html .= "</div>\n";
