@@ -1,4 +1,8 @@
 <?php
+
+# https://github.com/hacklover/weather
+# php weather script 1.0
+
 function show_weather($apikey, $state, $city, $show_n_days, $type_degree, $names_month) {
 	$xml_weather = simplexml_load_file("http://api.wunderground.com/api/$apikey/geolookup/forecast/q/$state/$city.xml");
 	
