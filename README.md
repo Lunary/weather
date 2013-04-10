@@ -5,11 +5,12 @@ hackLover's weather script is a smart, simple and customizable script that show 
 <img src="http://s12.postimg.org/6vlko16h9/demoweather.png" alt="Demo Weather" />
 ---
 
-version 1.0 - 9 april 2013
+version 1.0
 
 Visit and follow
 - www.hacklover.net
 - @_hacklover
+
 
 ---
 
