@@ -14,6 +14,10 @@ Visit and follow
 ---
 
 
+##Demo
+
+See the demo here: http://www.hacklover.net/lab/weather/
+
 
 ##Usage
 
