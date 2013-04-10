@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8" />
-	<title>Weather demo - made by hackLover</title>
-	<link href="themes/style.css" media="all" rel="stylesheet" type="text/css" />
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Weather demo - made by hackLover</title>
+		<link href="themes/style.css" media="all" rel="stylesheet" type="text/css" />
+	</head>
 	<body>
 		<div class="top"></div>
 		
