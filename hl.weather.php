@@ -1,7 +1,6 @@
 <?php
 function show_weather($apikey, $state, $city, $show_n_days, $type_degree, $names_month) {
 	$xml_weather = simplexml_load_file("http://api.wunderground.com/api/$apikey/geolookup/forecast/q/$state/$city.xml");
-	echo "http://api.wunderground.com/api/$apikey/geolookup/forecast/q/$state/$city.xml";
 	if ($xml_weather) {
 		$xml_weather_city = $xml_weather->location->city;
 		$xml_weather_forecast = $xml_weather->forecast->simpleforecast->forecastdays;
