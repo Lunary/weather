@@ -1,6 +1,6 @@
-#Weather PHP Script 1.0
+#PHP Weather Script 1.0
 
-hackLover's weather script is a smart, simple and customizable script to show wunderground.com weather in your website of your city
+hackLover's weather script is a smart, simple and customizable script that show wunderground.com weather in your website of your city
 
 <img src="http://s12.postimg.org/6vlko16h9/demoweather.png" alt="Demo Weather" />
 ---
