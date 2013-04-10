@@ -8,11 +8,10 @@
 <body>
 <div class="top"></div>
 <?php
-error_reporting(E_ALL);
 
 include "hl.weather.php";
 $names_month = array("Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre");
-echo show_weather("3a374949a63dd7cd", "IT", "Brescia", 3, "c", $names_month);
+echo show_weather("YOUR_API_KEY", "IT", "Brescia", 3, "c", $names_month);
 ?>
 <div class="copy">
 	made by <a href="http://www.hacklover.net">hackLover</a><br />
