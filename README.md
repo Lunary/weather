@@ -1,15 +1,15 @@
 #PHP Weather Script 1.0
 
-hackLover's weather script is a smart, simple and customizable script that show wunderground.com weather in your website of your city
+YF's weather script is a smart, simple and customizable script that show wunderground.com weather in your website of your city
 
-<img src="http://s12.postimg.org/6vlko16h9/demoweather.png" alt="Demo Weather" />
+<img src="http://wetter.gleisdorf.net/demo/demoweather.png" alt="Gleisdorf Wetter" />
 ---
 
 version 1.0
 
 Visit and follow
-- www.hacklover.net
-- @_hacklover
+- www.wetter.gleisdorf.net
+- @_Lunary
 
 
 ---
@@ -17,7 +17,7 @@ Visit and follow
 
 ##Demo
 
-See the demo here: http://www.hacklover.net/lab/weather/
+See the demo here: http://wetter.gleisdorf.net/
 
 
 ##Usage
